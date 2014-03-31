@@ -6,4 +6,4 @@ in depth notes as I complete each of the test files for reference.
 ## Notes
 
  * Booleans are capitalized: `True` and `False`
- * Method name ends in semi-colon and no ending indicator (whitespace sensitive like CoffeeScript?)
+ * Method name ends in a colon and no ending indicator (whitespace sensitive like CoffeeScript?)
