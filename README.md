@@ -12,7 +12,7 @@ in depth notes as I complete each of the test files for reference.
   * `==` and `!=` test if objects have the same value
   * `is` and `is not` test if objects are the same object (same as checking object ids)
   * Seems like Ruby, its advised to avoid `is` and `is not`
-* When `range()` has 1 argument thats the *stop* value, but with 2 its start and stop
+* When `range()` has 1 argument thats the *stop* value. With 2: start and stop. With 3: start, stop and step
 
   ```python
   list(range(3))    # [0, 1, 2]
