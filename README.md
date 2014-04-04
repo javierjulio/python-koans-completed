@@ -12,3 +12,14 @@ in depth notes as I complete each of the test files for reference.
   * `==` and `!=` test if objects have the same value
   * `is` and `is not` test if objects are the same object (same as checking object ids)
   * Seems like Ruby, its advised to avoid `is` and `is not`
+* When `range()` has 1 argument thats the *stop* value, but with 2 its start and stop
+  ```python
+  list(range(3))    # [0, 1, 2]
+  list(range(3, 6)) # [3, 4, 5]
+  ```
+* Using `insert()` will place element before the one at given index
+  ```python
+  nums = [1, 2, 3]
+  nums.insert(123, 1) # [1, 123, 2, 3]
+  ```
+* ...
