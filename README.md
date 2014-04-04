@@ -26,4 +26,12 @@ in depth notes as I complete each of the test files for reference.
   nums.insert(123, 1) # [1, 123, 2, 3]
   ```
 
+* The Dictionary `fromkeys()` method takes a sequence argument and then second argument is a default value for each key. There are 3 basic sequence types: lists, tuples, and ranges. *Tuples* are defined with *parentheses*. For example:
+
+  ```python
+  letters = {}.fromkeys(('A', 'B', 'C'), 23)
+  letters['A'] # -> 23
+  letters['B'] # -> 23
+  ```
+
 * ...
