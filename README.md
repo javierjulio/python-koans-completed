@@ -30,8 +30,16 @@ in depth notes as I complete each of the test files for reference.
 
   ```python
   letters = {}.fromkeys(('A', 'B', 'C'), 23)
-  letters['A'] # -> 23
-  letters['B'] # -> 23
+  letters['A'] # 23
+  letters['B'] # 23
+  ```
+
+* Tuples are *immutable* so item assignment isn't possible unless for example you convert to a list, add/remove values and make into a tuple again. *Tuples are less flexible than lists, but faster*.
+* Creating a tuple using constructor can be surprising, the differences:
+
+  ```python
+  ('Surprise!')       # ('Surprise!')
+  tuple('Surprise!')  # ('S', 'u', 'r', 'p', 'r', 'i', 's', 'e', '!')
   ```
 
 * ...
