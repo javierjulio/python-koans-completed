@@ -42,7 +42,7 @@ in depth notes as I complete each of the test files for reference.
   tuple('Surprise!')  # ('S', 'u', 'r', 'p', 'r', 'i', 's', 'e', '!')
   ```
 
-* Unlike Ruby the last line in a method *does not* return that value. Need to use `return` statement.
+* Unlike Ruby the last line in a method *does not* return that value. Need to use `return` statement. Also methods must be called using parens.
 
   ```python
   def pointless_method(self, a, b):
@@ -59,32 +59,32 @@ in depth notes as I complete each of the test files for reference.
         pass
 
     def last_name(self):
-        print "Last Name"
+        print("Last Name")
   ```
 
-* Methods and control statements end in a colon.
+* Methods and control statements end in a colon. Methods always must be called using parens.
 
   ```python
     def empty_method(self):
       pass
     
     if True:
-      print "true"
+      print("true")
     else:
-      print "false"
+      print("false")
     
     i = 1
     while i <= 10:
-      print i
+      print(i)
       i += 1
     
     countries = ['Argentina', 'Spain', 'Italy']
     for country in countries:
-      print country
+      print(country)
     
     names = [('Lionel', 'Messi'), ('David', 'Villa')]
     for first_name, last_name in names:
-      print first_name, last_name
+      print(first_name, last_name)
   ```
 
 * ...
