@@ -62,4 +62,29 @@ in depth notes as I complete each of the test files for reference.
         print "Last Name"
   ```
 
+* Methods and control statements end in a colon.
+
+  ```python
+    def empty_method(self):
+      pass
+    
+    if True:
+      print "true"
+    else:
+      print "false"
+    
+    i = 1
+    while i <= 10:
+      print i
+      i += 1
+    
+    countries = ['Argentina', 'Spain', 'Italy']
+    for country in countries:
+      print country
+    
+    names = [('Lionel', 'Messi'), ('David', 'Villa')]
+    for first_name, last_name in names:
+      print first_name, last_name
+  ```
+
 * ...
