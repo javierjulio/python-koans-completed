@@ -42,4 +42,24 @@ in depth notes as I complete each of the test files for reference.
   tuple('Surprise!')  # ('S', 'u', 'r', 'p', 'r', 'i', 's', 'e', '!')
   ```
 
+* Unlike Ruby the last line in a method *does not* return that value. Need to use `return` statement.
+
+  ```python
+  def pointless_method(self, a, b):
+    sum = a + b
+
+  self.pointless_method(1, 2) # -> None
+  ```
+
+* The `pass` statement acts as a placeholder. For example, if you want to define a method but not have it do anything at the moment you can use `pass` so the code will run otherwise it won't (you'd get an `IndentationError`)
+
+  ```python
+  class User(object):
+    def first_name(self):
+        pass
+
+    def last_name(self):
+        print "Last Name"
+  ```
+
 * ...
