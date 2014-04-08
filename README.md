@@ -35,11 +35,14 @@ in depth notes as I complete each of the test files for reference.
   ```
 
 * Tuples are *immutable* so item assignment isn't possible unless for example you convert to a list, add/remove values and make into a tuple again. *Tuples are less flexible than lists, but faster*.
-* Creating a tuple using constructor can be surprising, the differences:
+* Creating a `tuple` or `set` using constructor can be surprising.
 
   ```python
   ('Surprise!')       # ('Surprise!')
   tuple('Surprise!')  # ('S', 'u', 'r', 'p', 'r', 'i', 's', 'e', '!')
+  
+  {'12345'}     # {'12345'}
+  set('12345')  # {'1', '2', '3', '4', '5'}
   ```
 
 * Unlike Ruby the last line in a method *does not* return that value. Need to use `return` statement. Also methods must be called using parens.
@@ -87,4 +90,5 @@ in depth notes as I complete each of the test files for reference.
       print(first_name, last_name)
   ```
 
+* Dictionaries are key-value pairs while Sets are unordered collections with no duplicate elements.
 * ...
