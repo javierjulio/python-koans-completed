@@ -91,4 +91,15 @@ in depth notes as I complete each of the test files for reference.
   ```
 
 * Dictionaries are key-value pairs while Sets are unordered collections with no duplicate elements.
+* Control statements, specifically if-else statements, are coded using written out [logic operators](http://www.tutorialspoint.com/python/python_basic_operators.htm) so `and`, `or`, and `not`:
+
+  ```python
+  if (a == b and b == c):
+    pass
+  elif (a == b or b == c):
+    pass
+  else:
+    pass
+  ```
+
 * ...
