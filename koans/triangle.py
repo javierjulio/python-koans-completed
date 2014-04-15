@@ -16,13 +16,24 @@
 # and
 #   about_triangle_project_2.py
 #
+from itertools import permutations
+
 def triangle(a, b, c):
-    if (a <= 0 or b <= 0 and c <= 0):
-        raise TriangleError()
+    sides = [a, b, c]
     
-    if (a == b and b == c):
+    for side in sides:
+        if side <= 0:
+            raise TriangleError()
+    
+    for sideSet in permutations(sides):
+        if (sideSet[0] + sideSet[1] <= sideSet[2]):
+            raise TriangleError()
+    
+    numUniqSides = len(set(sides))
+    
+    if (numUniqSides == 1):
         return 'equilateral'
-    elif (a == b or b == c or c == a):
+    elif (numUniqSides == 2):
         return 'isosceles'
     else:
         return 'scalene'
