@@ -20,11 +20,11 @@ def triangle(a, b, c):
     if (a <= 0 or b <= 0 and c <= 0):
         raise TriangleError()
     
-    if (a == b and b == c and c == a):
+    if (a == b and b == c):
         return 'equilateral'
     elif (a == b or b == c or c == a):
         return 'isosceles'
-    elif (a != b and b != c and c != a):
+    else:
         return 'scalene'
 
 # Error class used in part 2.  No need to change this code.
