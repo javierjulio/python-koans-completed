@@ -18,6 +18,8 @@ in depth notes as I complete each of the test files for reference.
   list(range(3))    # [0, 1, 2]
   list(range(3, 6)) # [3, 4, 5]
   ```
+  
+  The stop value is not included in the range so for a `range(0, 6)` will be include and stop at 5. Had some trouble remembering on this on a later koan on iterations.
 
 * Using `insert()` will place element before the one at given index
 
